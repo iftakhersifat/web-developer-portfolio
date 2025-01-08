@@ -1,0 +1,134 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 20px 200px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.clr{
+    display: flex;
+    /* margin-right: 50px; */
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+.dark1{
+    color: #474747;
+}
+ul >li > a {
+    text-decoration: none;
+    
+}
+.btn{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+}
+
+/* 2nd part */
+
+.hi{
+    font-weight: 600px;
+    font-size: 45px;
+    color: #474747;
+    
+}
+.name{
+    margin-top: 5px;
+    font-weight: 700px;
+    font-size: 85px;
+    columns: #181818;
+    width: 580px;
+    
+}
+.para{
+    color: #757575;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.pic{
+    width: 580px;
+}
+/* pic and image same line */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 580px;
+    padding: 0 35px 0 200px;
+    
+}
+
+.back-pic{
+    background-image: url("../img/developer.png"), url("../img/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+
+/* main part */
+
+.my-info{
+    columns: #181818;
+    font-weight: 700px;
+    font-size: 35px;
+}
+.more-info{
+    color: #757575;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+/* background part */
+.seondery-bg{
+    background-color: #FFF8F3;
+
+}
+.info{
+    border-radius: 10px;
+    padding: 132px 157px;
+    text-align: center;
+    margin-top: 89px;
+}
+
+/* main styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* info-items part */
+/* .item-title{
+    font-weight: 400;
+    font-size: 20px;
+} */
+.item-description{
+    font-weight: 700;
+    font-size: 20;
+}
+.info-items{
+    display: flex;
+    justify-content: space-around;
+}
