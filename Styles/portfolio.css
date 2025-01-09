@@ -46,6 +46,18 @@ ul >li > a {
     align-items: center;
     border: none;
 }
+.btn1{
+    color: #FD6E0A;
+    border-radius: 10px;
+    border: 3px solid #FD6E0A;
+    padding: 18px 36px;
+    background-color: #FFF8F3;
+    background-image: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
 
 /* 2nd part */
 
@@ -53,10 +65,12 @@ ul >li > a {
     font-weight: 600px;
     font-size: 45px;
     color: #474747;
+    margin-bottom: 5px;
     
 }
 .name{
     margin-top: 5px;
+    margin-bottom: 20px;
     font-weight: 700px;
     font-size: 85px;
     columns: #181818;
@@ -67,6 +81,7 @@ ul >li > a {
     color: #757575;
     font-weight: 400px;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 .pic{
     width: 580px;
@@ -111,7 +126,9 @@ ul >li > a {
     border-radius: 10px;
     padding: 132px 157px;
     text-align: center;
-    margin-top: 89px;
+    margin-top: 89px; 
+    border: 3px solid black;
+    
 }
 
 /* main styles */
@@ -138,6 +155,13 @@ main{
 .what{
     /* margin-top: 130; */
     text-align: center;
+}
+.what-para{
+    margin-bottom: 50px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400px;
+  
 }
 
 .skills{
